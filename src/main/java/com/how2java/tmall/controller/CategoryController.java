@@ -19,13 +19,13 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
-
+ 
 @Controller
 @RequestMapping("")
 public class CategoryController {
     @Autowired
     CategoryService categoryService;
-
+  
     @RequestMapping("admin_category_list")
     public String list(Model model,Page page){
         PageHelper.offsetPage(page.getStart(),page.getCount());

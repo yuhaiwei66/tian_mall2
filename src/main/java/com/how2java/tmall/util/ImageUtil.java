@@ -1,10 +1,20 @@
 package com.how2java.tmall.util;
 
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.*;
+import java.awt.Image;
+import java.awt.Toolkit;
+import java.awt.image.BufferedImage;
+import java.awt.image.ColorModel;
+import java.awt.image.DataBuffer;
+import java.awt.image.DataBufferInt;
+import java.awt.image.DirectColorModel;
+import java.awt.image.PixelGrabber;
+import java.awt.image.Raster;
+import java.awt.image.RenderedImage;
+import java.awt.image.WritableRaster;
 import java.io.File;
 import java.io.IOException;
+
+import javax.imageio.ImageIO;
 
 public class ImageUtil {
 

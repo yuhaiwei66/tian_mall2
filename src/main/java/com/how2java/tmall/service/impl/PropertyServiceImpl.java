@@ -1,8 +1,11 @@
 package com.how2java.tmall.service.impl;
 
 import com.how2java.tmall.mapper.PropertyMapper;
+import com.how2java.tmall.pojo.Category;
+import com.how2java.tmall.pojo.Product;
 import com.how2java.tmall.pojo.Property;
 import com.how2java.tmall.pojo.PropertyExample;
+import com.how2java.tmall.service.CategoryService;
 import com.how2java.tmall.service.PropertyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
